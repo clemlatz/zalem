@@ -3,7 +3,7 @@ media:
   output: /
 content:
   - name: posts
-    label: Posts
+    label: Billets
     type: collection
     path: src/content/blog
     view:
@@ -21,7 +21,7 @@ content:
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
   - name: about
-    label: About page
+    label: À propos
     type: file
     path: src/pages/about.md
     fields:
